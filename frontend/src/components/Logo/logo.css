@@ -1,0 +1,54 @@
+/* Default styles */
+.logo-container {
+    max-width: 600px; /* Maximum width for the logo container */
+    height: auto; /* Adjusts the height automatically based on the width */
+    overflow: hidden; /* Prevents the logo from overflowing its container */
+    margin: -10% auto; /* Centers the logo container */
+  }
+  
+  .logo-image {
+    max-width: 100%; /* Ensures the image doesn't exceed the container's width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes default image spacing */
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .logo-container {
+      max-width: 500px; /* Adjusted width for smaller screens */
+      margin: -10% auto;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media screen and (max-width: 480px) {
+    .logo-container {
+      max-width: 300px; /* Further adjusted width for very small screens */
+    }
+  }
+
+   /* Media query for even smaller screens */
+   @media screen and (min-width: 1000px) {
+    .logo-container {
+        margin: -10% auto; /* Centers the logo container */
+    }
+
+   
+  }
+
+   /* Media query for even smaller screens */
+   @media screen and (min-width: 1300px) {
+    .logo-container {
+        margin: -10% auto; /* Centers the logo container */
+    }
+
+    }
+
+    /* Media query for even smaller screens */
+   @media screen and (min-width: 1500px) {
+    .logo-container {
+        max-width: 1200px;
+        margin: -15% auto; /* Centers the logo container */
+    }
+
+    }

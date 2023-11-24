@@ -1,0 +1,46 @@
+
+.drag-button {
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    cursor:move;
+}
+
+
+.round-button {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color: #007bff;
+    color:white;
+    border:none;
+    font-size: 24px;
+    cursor:pointer;
+    outline:none;
+}
+
+
+
+
+/* 
+
+.clickable-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 999;
+    
+  }
+  
+  .round-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+  }*/
