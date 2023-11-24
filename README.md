@@ -15,10 +15,10 @@ Simples MERN stack APP which the main objective of training CRUD scenarios and r
 - Download Boards as pdf.
 
 ## Execution
-  frontend file
-    $npm start
-  backend file
-    $node index.js
+  frontend file\n
+    $npm start\n
+  backend file\n
+    $node index.js\n
   
 ## Installation
 
