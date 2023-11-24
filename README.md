@@ -4,6 +4,7 @@ Simples MERN stack APP which the main objective of training CRUD scenarios and r
 
 ## Table of Contents
 - [Features](#features)
+- [Execution](#execution)
 - [Installation](#installation)
 
 ## Features
@@ -13,6 +14,12 @@ Simples MERN stack APP which the main objective of training CRUD scenarios and r
 - Load of Boards from different sessions.
 - Download Boards as pdf.
 
+## Execution
+  frontend file
+    $npm start
+  backend file
+    $node index.js
+  
 ## Installation
 
 
@@ -28,3 +35,4 @@ $ npm install mongoose
 $ npm install cors
 
 In backend/index.js we have a try catch block. In the mongoose.connect you can introduce your valid mongoDB link.
+
