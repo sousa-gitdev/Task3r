@@ -5,7 +5,6 @@ Simples MERN stack APP which the main objective of training CRUD scenarios and r
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Set Mongo DB](#SetMongoDB)
 
 ## Features
 
@@ -28,5 +27,4 @@ $ npm install express
 $ npm install mongoose
 $ npm install cors
 
-## SetMongoDB
-  In backend/index.js we have a try catch block. In the mongoose.connect you can introduce your valid mongoDB link.
+In backend/index.js we have a try catch block. In the mongoose.connect you can introduce your valid mongoDB link.
